@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Para Dahana 🤍</title>
+
+<!-- FUENTES BONITAS -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+    body{
+        margin:0;
+        background:#d8c7b0;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .container{
+        display:flex;
+        max-width:1000px;
+        margin:40px auto;
+        background:#e8d8c3;
+        padding:30px;
+        gap:30px;
+    }
+
+    /* COLUMNA IZQUIERDA */
+    .fotos{
+        width:35%;
+        display:flex;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .polaroid{
+        background:white;
+        padding:10px 10px 25px;
+        box-shadow:0 6px 15px rgba(0,0,0,0.25);
+        transform: rotate(-2deg);
+    }
+
+    .polaroid:nth-child(even){
+        transform: rotate(3deg);
+    }
+
+    .polaroid img{
+        width:100%;
+        display:block;
+        filter: grayscale(100%);
+    }
+
+    /* COLUMNA DERECHA */
+    .carta{
+        width:65%;
+        background:#f6eee4;
+        padding:50px;
+        position:relative;
+        display:flex;
+        flex-direction:column;
+        justify-content:center; /* BAJA EL TEXTO */
+    }
+
+    .titulo{
+        font-family: 'Playfair Display', serif;
+        font-size:46px;
+        margin-bottom:25px;
+        color:#3a2f25;
+    }
+
+    .texto{
+        font-size:17px;
+        line-height:1.7;
+        color:#333;
+    }
+
+    .firma{
+        margin-top:35px;
+        font-family: 'Playfair Display', serif;
+        font-size:28px;
+        text-align:right;
+        color:#3a2f25;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- FOTOS -->
+    <div class="fotos">
+        <div class="polaroid">
+            <img src="snoppy.jpg">
+        </div>
+        <div class="polaroid">
+            <img src="SNOOPY.jpg">
+        </div>
+        <div class="polaroid">
+            <img src="snoopy2.jpg">
+        </div>
+    </div>
+
+    <!-- CARTA -->
+    <div class="carta">
+        <div class="titulo">Querida Dahana:3</div>
+
+        <div class="texto">
+            ¿Usted cree que esto es una casualidad?  
+            Yo no lo creo. Nunca hay casualidades.  
+            He pensado en usted durante varios meses.
+            <br><br>
+            Te hice este pequeño regalito digital porque no quería esperar
+            hasta el 14 para decírtelo 🌸
+            <br><br>
+            Desde que te conocí, noté que tienes una forma muy especial de
+            iluminar todo a tu alrededor. Eres esa amiga que hace que el
+            mundo se sienta más bonito, con una sonrisa sincera y un cariño
+            inmenso, sobre todo con los niños.
+            <br><br>
+            Este 14 de febrero no quería que pasara como un día cualquiera.
+            Quería que fuera un recordatorio, incluso desde lejos, de lo
+            especial que es saber que existes, admirar tu camino y desearte
+            siempre lo mejor en todo lo que haces.
+            <br><br>
+            A veces, aunque la distancia esté presente, los pequeños
+            detalles encuentran la forma de llegar.
+        </div>
+
+        <div class="firma">
+            ¿Aceptarías ser mi San Valentín? 🤍
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
